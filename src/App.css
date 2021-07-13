@@ -1,38 +1,136 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.appHeader {
+  background-color: rgb(85, 83, 83);
+  height:663px;
+}
+
+.logo {
+  margin-left: 100px;
+  width: 100px;
+  height: 23px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+}
+
+.cardHeader div  {
+  width: 400px;
+  height: 260px;
+  margin-top: 120px;
+  border-radius: 20px;
+}
+
+.card1 {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 88%, 0 88%);
+  margin-left: 250px;
+  background-color: rgba(253, 189, 159, 0.7);
+}
+
+.card2 {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 5% 90%, 0 100%);
+  /* transform: scaleX(-1); */
+  margin-left: 50px;
+  background-color: rgba(34, 167, 255, 0.7);
+}
+
+.cardHeader div img {
+  margin-left: 170px;
+  margin-top: 10px;
+  /* margin: 10px; */
+}
+
+section div p {
+  /* padding: 2px, 0; */
+  font-size: 20px;
+  color: white;
+  /* margin-bottom: 0; */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section div button {
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-left: 120px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card1Btn {
+  background-color: rgb(204, 92, 40);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card1Btn:hover {
+  background-color: rgb(230, 81, 11);
+}
+
+.card2Btn {
+  background-color: rgb(4, 85, 235);
+}
+
+.card2Btn:hover {
+  background-color: rgb(3, 60, 248);
+}
+
+section div span {
+  margin-left: 130px;
+}
+
+section div a {
+  text-decoration: none;
+  /* position: fixed; */
+}
+
+header{
+  padding-top: 5px;
+  width: 100vw;
+  background-color: white;
+  height: 40px;
+}
+
+header nav ul li{
+  display: inline;
+  margin: 10px;
+  list-style-type: none;
+}
+
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(92, 73, 73);
+}
+
+.login {
+  /* margin-left: 600px; */
+  background-color: rgb(171, 189, 212);
+  border: thin solid rgb(43, 43, 235);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.login a {
+  color: rgb(10, 112, 228);
+}
+
+.signUp {
+  padding: 9px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(26, 130, 250);
+  border: 0;
+}
+
+.signUp a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type = "search"] {
+  width: 500px;
+  height: 35px;
 }
