@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+.card {
+  margin-top: 80px;
+  height: 250px;
+  /* width: 300px; */
+  border-radius: 20px;
+}
+
+.cardGroup {
+  display: flex;
+}
+
 .appHeader {
   background-color: rgb(85, 83, 83);
   height:663px;
@@ -14,35 +25,11 @@
   height: 23px;
 }
 
-.cardHeader {
-  display: flex;
-  align-items: center;
-}
 
-.cardHeader div  {
-  width: 400px;
-  height: 260px;
-  margin-top: 120px;
-  border-radius: 20px;
-}
-
-.card1 {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 88%, 0 88%);
+#cardImage {
+  margin-bottom: 10px;
   margin-left: 250px;
-  background-color: rgba(253, 189, 159, 0.7);
-}
-
-.card2 {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 5% 90%, 0 100%);
-  /* transform: scaleX(-1); */
-  margin-left: 50px;
-  background-color: rgba(34, 167, 255, 0.7);
-}
-
-.cardHeader div img {
-  margin-left: 170px;
   margin-top: 10px;
-  /* margin: 10px; */
 }
 
 section div p {
@@ -63,23 +50,16 @@ section div button {
 }
 
 .card1Btn {
-  background-color: rgb(204, 92, 40);
+  margin-left: 190px;
+  /* background-color: rgb(204, 92, 40); */
 }
 
 .card1Btn:hover {
   background-color: rgb(230, 81, 11);
 }
 
-.card2Btn {
-  background-color: rgb(4, 85, 235);
-}
-
-.card2Btn:hover {
-  background-color: rgb(3, 60, 248);
-}
-
 section div span {
-  margin-left: 130px;
+  margin-left: 205px;
 }
 
 section div a {
